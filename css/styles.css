@@ -1,0 +1,11 @@
+:root {
+    --color-white-gray:  #F4F5F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+    color: var(--color-white);
+}
