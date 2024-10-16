@@ -9,3 +9,17 @@
     font-family: "Heebo", sans-serif;
     color: var(--color-white);
 }
+
+.hero { 
+    background-color: var(--color-white-gray); 
+    min-height: 60vh; 
+} 
+
+/* .mx-5 {
+    margin-left: (150rem * .5) !important;
+    margin-right: (5 * .5) !important;
+} */
+
+.test {
+    border: solid red 1px;
+}
