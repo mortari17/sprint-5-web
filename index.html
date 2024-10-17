@@ -25,7 +25,7 @@
     />
 
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
 
@@ -376,49 +376,73 @@
       </div>
 
       <footer class="bg-dark">
-        <div class="container">
+        <div class="container mt-4 mb-5 pb-4">
           <div class="row">
-            <div class="col-6">
+            <div class="col-6 d-flex gap-2 flex-column">
               <h3 class="text-light">Assine nossa newsletter</h3>
-              <label for="exampleDataList" class="form-label"
-                >Datalist example</label
-              >
-              <input
-                class="form-control"
-                list="datalistOptions"
-                id="exampleDataList"
-                placeholder="Type to search..."
-              />
-              <datalist id="datalistOptions">
-                <option value="San Francisco"></option>
-                <option value="New York"></option>
-                <option value="Seattle"></option>
-                <option value="Los Angeles"></option>
-                <option value="Chicago"></option>
-              </datalist>
-
-              <label for="exampleDataList" class="form-label"
-                >Datalist example</label
-              >
-              <input
-                class="form-control"
-                list="datalistOptions"
-                id="exampleDataList"
-                placeholder="Type to search..."
-              />
-              <datalist id="datalistOptions">
-                <option value="San Francisco"></option>
-                <option value="New York"></option>
-                <option value="Seattle"></option>
-                <option value="Los Angeles"></option>
-                <option value="Chicago"></option>
-              </datalist>
+              <div class="d-flex gap-0 row">
+                <div class="col-6">
+                  <label for="exampleDataList" class="form-label text-light"
+                    >Email</label
+                  >
+                  <input
+                    class="form-control"
+                    id="exampleDataList"
+                    placeholder="Seu email"
+                  />
+                </div>
+                <div class="col-6">
+                  <label for="exampleDataList" class="form-label text-light"
+                    >Nome</label
+                  >
+                  <input
+                    class="form-control"
+                    id="exampleDataList"
+                    placeholder="Seu nome"
+                  />
+                </div>
+              </div>
+              <div class="d-flex justify-content-end mt-2">
+                <button type="button" class="btn btn-outline-light">
+                  Assinar agora
+                </button>
+              </div>
             </div>
-            <div class="col-6">
+            <div class="col-6 d-flex flex-column align-items-center gap-2">
               <h3 class="text-light">MatrixShop</h3>
-              <h5>Baixe nosso app</h5>
+              <h5 class="text-light">Baixe nosso app</h5>
+              <div class="mb-2 d-flex gap-3">
+                <button type="button" class="btn btn-outline-light">
+                  <a href=""><i class="bi bi-google-play text-light"></i></a>
+                  Google Play
+                </button>
+                <button type="button" class="btn btn-outline-light">
+                  <a href=""><i class="bi bi-apple text-light"></i></a>
+                  Apple Store
+                </button>
+              </div>
+              <div class="d-flex ps-4">
+                <a href="">
+                  <i class="bi bi-instagram text-light fs-4 me-4"></i>
+                </a>
+                <a href="">
+                  <i class="bi bi-facebook text-light fs-4 me-4"></i>
+                </a>
+                <a href="">
+                  <i class="bi bi-twitter-x text-light fs-4 me-4"></i>
+                </a>
+                <a href="">
+                  <i class="bi bi-youtube text-light fs-4 me-4"></i>
+                </a>
+              </div>
             </div>
           </div>
+        </div>
+        <div>
+          <p class="text-light d-flex justify-content-center pt-2 border-top">
+            Desenvolvido por: Felipe Dyundi Takara (554751) - Leonardo Mortari
+            (558618)
+          </p>
         </div>
       </footer>
     </div>
