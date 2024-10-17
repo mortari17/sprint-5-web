@@ -37,9 +37,11 @@
       class="navbar navbar-expand-lg mx-lg-5 px-lg-5 mx-sm-5 mx-md-4 px-md-4"
     >
       <div
-        class="container-fluid d-flex justify-content-between mx-lg-2 mx-sm-0 my-3"
+        class="container-fluid d-flex justify-content-between w-100 mx-lg-2 mx-sm-0 my-3"
       >
-        <a class="nav-link active" aria-current="page" href="#">MatrixShop</a>
+        <div class="me-5">
+          <a class="navbar-brand" href="#">MatrixShop</a>
+        </div>
 
         <button
           class="navbar-toggler"
@@ -54,16 +56,26 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto text-start w-100">
-            <a class="nav-link" href="#collection">Coleção 2024</a>
-            <a class="nav-link" href="#outlet">Outlet</a>
-            <a class="nav-link" href="#prime">Prime</a>
-            <a class="nav-link" href="#">
-              <i class="bi bi-cart"></i> Carrinho
-            </a>
-            <a class="nav-link" href="#">
-              <i class="bi bi-person-circle"></i> Login
-            </a>
+          <div
+            class="navbar-nav ms-auto text-start w-100 justify-content-lg-between d-flex flex-column-sm"
+          >
+            <div
+              class="d-flex justify-content-lg-end justify-content-sm-start w-50 ms-lg-5 pe-lg-0 flex-column flex-lg-row"
+            >
+              <a class="nav-link" href="#collection">Coleção 2024</a>
+              <a class="nav-link" href="#outlet">Outlet</a>
+              <a class="nav-link" href="#prime">Prime</a>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-sm-start w-50 justify-content-lg-end flex-lg-row"
+            >
+              <a class="nav-link text" href="#">
+                <i class="bi bi-cart"></i> Carrinho
+              </a>
+              <a class="nav-link" href="#">
+                <i class="bi bi-person-circle"></i> Login
+              </a>
+            </div>
           </div>
         </div>
       </div>
