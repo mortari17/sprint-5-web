@@ -17,11 +17,3 @@
 .min-height-60vh {  
     min-height: 60vh;  
 }  
-
-.test { 
-    border: solid red 1px; 
-}
-
-.testg { 
-    border: solid rgb(8, 222, 8) 3px; 
-} 
